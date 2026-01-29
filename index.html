@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Last Bell of Class 10th | by HACKER X</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="assets/audio/bg-music.mp4" type="audio/mp4">
+</audio>
+
+<button onclick="toggleMusic()" style="
+position:fixed;
+bottom:20px;
+right:20px;
+padding:10px 12px;
+border-radius:50%;
+background:#111;
+color:#fff;
+border:none;
+cursor:pointer;
+z-index:999;">
+🎵
+</button>
+
+<section class="hero">
+  <h1>The Last Bell</h1>
+  <p>Class 10th came to an end, but the memories stayed.</p>
+  <span>by HACKER X</span>
+</section>
+
+<section class="section">
+  <h2>Our Journey</h2>
+  <div class="highlight">Pressure, friendship, growth, and memories</div>
+  <p>
+    Class 10th was not just an academic year.
+    It was a phase of emotions, lessons,
+    and moments that quietly became memories.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Our Timeline</h2>
+  <div class="highlight">Beginning — New hopes, silent fear</div>
+  <div class="highlight">Mid Year — Exams, stress, laughter</div>
+  <div class="highlight">Final Phase — Boards & determination</div>
+  <div class="highlight">The Last Bell — Goodbye we never expected</div>
+</section>
+
+<section class="section">
+  <h2>One Friend Who Made It All Worth It</h2>
+  <div class="highlight">
+    Samad Warsi — not just a friend, but a constant presence.
+  </div>
+</section>
+
+<section class="section">
+  <h2>Memories in Pictures</h2>
+  <div class="gallery">
+    <img src="assets/images/pic1.jpg">
+    <img src="assets/images/pic2.jpg">
+    <img src="assets/images/pic3.jpg">
+    <img src="assets/images/pic4.jpg">
+    <img src="assets/images/pic5.jpg">
+    <img src="assets/images/pic6.jpg">
+  </div>
+</section>
+
+<section class="section">
+  <h2>Teachers Who Shaped Us</h2>
+  <div class="highlight">Shailesh Sir — The best teacher</div>
+  <div class="highlight">Pavan Sir — Motivational force</div>
+  <div class="highlight">Parikshit Sir — Favorite & unforgettable</div>
+</section>
+
+<section class="section end">
+  <p>I will miss my friends, my teachers, and every moment we shared.</p>
+  <strong>— HACKER X</strong>
+</section>
+
+<script>
+function toggleMusic() {
+  const m = document.getElementById("bgMusic");
+  m.paused ? m.play() : m.pause();
+}
+</script>
+
+</body>
+</html>
